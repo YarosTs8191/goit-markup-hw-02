@@ -2,6 +2,12 @@ body {
   font-family: "Roboto" sans-serif;
   background-color: #fff;
 }
+
+.header {
+  width: 530px;
+  height: 144px;
+}
+
 .header-logo {
   color: #2e2f42;
   font-family: Raleway;
@@ -44,6 +50,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+
+.address-menu-link:hover {
+  color: #404bbf;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .header-menu-link {
   text-decoration: none;
   color: #2e2f42;
@@ -52,6 +69,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+
+.header-menu-link:hover {
+  border-radius: 2px;
+  background: #404bbf;
+}
+
 .title {
   width: 1440px;
   height: 600px;
@@ -70,12 +93,125 @@ body {
   letter-spacing: 0.02em;
   width: 496px;
 }
+
 .btn {
   display: inline-flex;
   padding: 16px 32px;
+  font-family: Roboto;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
+.btn:hover {
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* ============== Section 1 ================= */
+
+.advantage {
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.advantage-menu {
+  text-decoration: none;
+  list-style: none;
+}
+.advantage-menu-list {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.advantage-menu-title {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantage-menu-item {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ============== Section 2 ================= */
+
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-menu {
+  text-decoration: none;
+  list-style: none;
+}
+.team-list {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-subtitle {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-item {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-img {
+  width: 264px;
+  height: 260px;
+  background: lightgray -335.01px -22.055px / 256.162% 173.614% no-repeat;
+}
+
+/* ============== Section 3 ================= */
