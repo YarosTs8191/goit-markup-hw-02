@@ -1,4 +1,5 @@
 .body {
+  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
@@ -12,17 +13,6 @@
 }
 
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  width: 71px;
-  text-decoration: none;
-}
-.header-navigation-span {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -31,6 +21,17 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-style: normal;
+  text-decoration: none;
+}
+.header-navigation-span {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-menu {
@@ -46,19 +47,25 @@
   font-family: Roboto;
   font-style: normal;
 }
-.header-menu-link:hover {
+
+.header-menu-item:hover,
+.header-menu-item:focus {
   border-radius: 2px;
   background: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
 .address-menu {
+}
+.address-item {
+  text-decoration: none;
   list-style: none;
 }
-
-.address-link-mail {
-  font-family: Roboto;
-  font-style: normal;
+.address-link {
   color: #434455;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -66,28 +73,8 @@
   text-decoration: none;
 }
 
-.address-link-mail:hover {
-  color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.address-link-tell {
-  font-family: Roboto;
-  font-style: normal;
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.address-link-tell:hover {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
   font-family: Roboto;
   font-size: 16px;
@@ -110,18 +97,24 @@
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .btn {
-  padding: 16px 32px;
+  color: #fff;
   font-family: Roboto;
-  gap: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
 }
-.btn:hover {
+
+.btn:hover,
+.btn:focus {
   border-radius: 4px;
   background: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -188,6 +181,7 @@
   list-style: none;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-subtitle {
   color: #2e2f42;
@@ -215,6 +209,8 @@
 
 /* ============== Section 3 ================= */
 
+/* List 1 */
+
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -237,13 +233,7 @@
     #fff;
 }
 
-.portfolio-img {
-  width: 360px;
-  height: 300px;
-  flex-shrink: 0;
-}
-
-.portfolio-subtitle {
+.apps-subtitle {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -253,7 +243,39 @@
   letter-spacing: 0.02em;
 }
 
-.portfolio-text {
+.apps-text {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* List 2 */
+
+.courses-item {
+  list-style: none;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    #fff;
+}
+
+.courses-subtitle {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.courses-text {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -281,22 +303,22 @@
 }
 
 .footer-span {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-footer {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-footer {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -308,5 +330,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02e;
+  letter-spacing: 0.02em;
 }
