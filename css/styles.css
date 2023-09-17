@@ -191,19 +191,28 @@ body {
 
 /* ============== Section 4 ================= */
 
-/* List 1 */
-
+.portfolio {
+}
 .portfolio-title {
   color: #2e2f42;
+  text-align: center;
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
+.menu-apps {
+  text-decoration: none;
+  list-style: none;
+}
+.portfolio-list {
+}
+.portfolio-img {
+  background: lightgray;
+}
 .portfolio-subtitle {
   color: #2e2f42;
   font-family: Roboto;
@@ -213,12 +222,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
-.apps-item {
-  list-style: none;
-  background: #fff;
-}
-
 .portfolio-text {
   color: #434455;
   font-family: Roboto;
@@ -228,17 +231,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-/* List 2 */
-
-.courses-item {
+.menu-courses {
+  text-decoration: none;
   list-style: none;
-  background: #fff;
-}
-
-.courses-item {
-  list-style: none;
-  background: #fff;
 }
 
 /* ============== footer ================= */
