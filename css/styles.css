@@ -5,6 +5,8 @@ body {
   color: #434455;
 }
 
+/* ================ header =====================*/
+
 .header {
   background: #fff;
 }
@@ -80,6 +82,8 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ===================== Section 1 =====================*/
+
 .title {
   background: #2e2f42;
 }
@@ -91,17 +95,19 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .btn {
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -109,7 +115,7 @@ body {
   background: #404bbf;
 }
 
-/* ============== Section 1 ================= */
+/* ============== Section 2 ================= */
 
 .advantage-menu {
   text-decoration: none;
@@ -134,7 +140,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ============== Section 2 ================= */
+/* ============== Section 3 ================= */
 
 .team {
   background: #f4f4fd;
@@ -144,10 +150,22 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team-subtitle {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-menu {
@@ -168,10 +186,10 @@ body {
   letter-spacing: 0.02em;
 }
 .team-img {
-  background: lightgray -335.01px -22.055px / 256.162% 173.614% no-repeat;
+  background: lightgray;
 }
 
-/* ============== Section 3 ================= */
+/* ============== Section 4 ================= */
 
 /* List 1 */
 
@@ -222,6 +240,8 @@ body {
   list-style: none;
   background: #fff;
 }
+
+/* ============== footer ================= */
 
 .footer {
   background: #2e2f42;
